@@ -1,4 +1,4 @@
-# Drawbacks of other terminals
+# Comparing terminals
 
 * xterm
     - old and huge codebase
@@ -20,9 +20,10 @@
     - ~23M urxvtd (but who wants to run a daemon for a terminal)
 
 * st
-    - more modern (but still using c99 because its cool i guess)
-    - configuration file is a c header file and can be extended with patches
+    - more modern than xterm (but still using c99 because its cool i guess)
+    - configuration file is a c header file and can be extended with patches (when
+      they dont break)
     - no transparency out of the box but transset is a good alternative
-    - simple/suckless approach
+    - simple/suckless approach = few lines of code, only have what you need!
     - i dont like patching software each time i want a feature (patch -i <patch>)
     - ~16M when launched (the best so far)
