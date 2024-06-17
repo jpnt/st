@@ -76,7 +76,7 @@ static int bellvolume = 0;
 /* default TERM value */
 /* char *termname = "st-256color"; */
 /* for compatibility reasons i use xterm as the TERM variable */
-char *termname = "xterm";
+char *termname = "st";
 
 /*
  * spaces per tab
